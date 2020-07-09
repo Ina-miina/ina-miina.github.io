@@ -1,0 +1,183 @@
+@charset UTF-8;
+/* ================================================ */
+/*             0 サイト全体設定                */
+/* ================================================ */
+
+body {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+	background-color:#fff;
+	font-family:  YuGothic,'Yu Gothic', Osaka, sans-serif, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+
+/* ================================================ */
+/*main visual*/
+/* ================================================ */
+
+
+
+.main-image {
+	background-image: url(images/main-image.png);
+	height: 512 px;
+	background-size:cover ;
+	background-position: center;
+}
+
+
+.main-image h1 {
+	text-align: center;
+}
+
+.main-image h1 img {
+	padding-top: 100px;
+}
+
+
+/* ================================================ */
+/*ディスクリプション部分*/
+/* ================================================ */
+
+
+.content-wrapper {
+width: 1000px;
+margin: 0 auto;
+}
+
+
+.description {
+	height: 346px;
+	margin-top: 40px;
+	background-image: url(images/concept-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+.description p {
+	padding-top: 130px;
+	line-height: 2;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+/* ================================================ */
+/*テーマ部分*/
+/* ================================================ */
+
+
+.theme {
+	margin: 100px 0;
+}
+
+.title {
+ display: block;
+ margin: auto;
+}
+
+.theme-block {
+display: flex;
+}
+
+.foo{
+margin: 50px 35px;
+line-height: 1.5;
+}
+
+.theme-block p {
+	padding-top: 24px;
+}
+
+.theme-block img{
+	padding-right: 24px;
+}
+
+.theme-item-btn {
+	margin-left: auto;
+	margin-right: 50px;
+	float: right;
+
+}
+
+
+.theme-item-btn a {
+display: block;
+color: #ffffff;
+font-weight: bold;
+text-align: center;
+background-color: #cc2e4c;
+width: 320px;
+padding: 24px;
+border-radius: 8px;
+text-decoration: none;
+transition-property: all;
+transition: 0.3s linear;
+}
+
+.theme-item-btn a:hover{
+	background-color: #9a233a;
+}
+
+
+
+/* ================================================ */
+/*call to action section*/
+/* ================================================ */
+
+
+.cta-section {
+	background-image: url(images/photo-bg.png);
+	height: 300px;
+	background-size:cover ;
+	background-position: center;
+
+}
+
+.cta-inner {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.cta-section h2 {
+	text-align: center;
+	padding: 32px 0;
+
+}
+
+.cta-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta-btn a {
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #cc2e4c;
+	width: 190px;
+	padding: 24px;
+	border-radius: 8px;
+	position: relative;
+	box-shadow: 0 4px 0 #9a233a;
+}
+
+.cta-btn a:hover{
+	bottom: -4px;
+	box-shadow: none;
+}
+
+
+/* ================================================ */
+/*footer*/
+/* ================================================ */
+
+footer {
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	padding: 32px 0;
+}
